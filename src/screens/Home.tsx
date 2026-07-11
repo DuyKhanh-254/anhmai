@@ -23,7 +23,7 @@ export function Home() {
               <p className="text-label-lg text-primary mb-2">안녕하세요!</p>
               <h1 className="text-display-lg font-display-lg text-primary mb-2">Vũ Anh Mai</h1>
               <h2 className="text-headline-md text-on-surface-variant mb-6">Sinh viên Ngôn ngữ Hàn Quốc · ULIS</h2>
-              <p className="text-body-lg text-on-surface">Mình là Vũ Anh Mai, mã sinh viên 25042496, sinh viên Trường Đại học Ngoại ngữ – ĐHQGHN. Portfolio này lưu lại sáu sản phẩm của học phần Nhập môn Công nghệ số và Ứng dụng trí tuệ nhân tạo.</p>
+              <p className="text-body-lg text-on-surface">Mình là Vũ Anh Mai – sinh viên ngành Ngôn ngữ Hàn Quốc, ĐHQGHN. Portfolio này không chỉ lưu lại hành trình khám phá và tìm hiểu học phần Nhập môn Công nghệ số và Ứng dụng trí tuệ nhân tạo mà còn giúp mình nhìn nhận, khắc phục những hạn chế trong các học phần sắp tới. Portfolio bao gồm 6 bài tập, quá trình hoàn thành và những kinh nghiệm mình rút ra.</p>
               <div className="flex flex-wrap gap-3 mt-7">
                 <span className="inline-flex items-center gap-2 bg-primary-container/40 px-4 py-2 rounded-full text-label-sm border border-primary-container"><GraduationCap size={16}/> MSSV 25042496</span>
               </div>
