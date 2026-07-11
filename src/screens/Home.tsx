@@ -1,4 +1,4 @@
-import { Heart, GraduationCap, Languages, FileText, Pin, Brain, BookOpen, Sparkles, UserRound } from 'lucide-react';
+import { Heart, GraduationCap, Pin, Brain, BookOpen, Sparkles, UserRound } from 'lucide-react';
 import { motion } from 'motion/react';
 
 export function Home() {
@@ -26,7 +26,6 @@ export function Home() {
               <p className="text-body-lg text-on-surface">Mình là Vũ Anh Mai, mã sinh viên 25042496, sinh viên Trường Đại học Ngoại ngữ – ĐHQGHN. Portfolio này lưu lại sáu sản phẩm của học phần Nhập môn Công nghệ số và Ứng dụng trí tuệ nhân tạo.</p>
               <div className="flex flex-wrap gap-3 mt-7">
                 <span className="inline-flex items-center gap-2 bg-primary-container/40 px-4 py-2 rounded-full text-label-sm border border-primary-container"><GraduationCap size={16}/> MSSV 25042496</span>
-                <span className="inline-flex items-center gap-2 bg-secondary-container/40 px-4 py-2 rounded-full text-label-sm border border-secondary-container"><Languages size={16}/> Việt · Hàn</span>
               </div>
             </div>
           </div>
