@@ -11,7 +11,13 @@ export function Home() {
           <div className="grid md:grid-cols-[220px_1fr] gap-8 items-center">
             <div className="relative mx-auto">
               <div className="absolute inset-0 bg-primary-container rounded-3xl rotate-6" />
-              <img src="/avatar.jpg" alt="Ảnh chân dung Vũ Anh Mai" className="relative w-52 h-64 object-cover rounded-3xl border-4 border-white polaroid-shadow -rotate-2" />
+              <motion.img
+                src="/avatar.jpg"
+                alt="Ảnh chân dung Vũ Anh Mai"
+                animate={{ rotate: [-2, 2, -2], y: [0, -5, 0] }}
+                transition={{ duration: 4, repeat: Infinity, ease: 'easeInOut' }}
+                className="relative w-52 h-64 object-cover rounded-3xl border-4 border-white polaroid-shadow"
+              />
             </div>
             <div>
               <p className="text-label-lg text-primary mb-2">안녕하세요!</p>
